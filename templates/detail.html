@@ -11,7 +11,7 @@
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="../static/img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,14 +22,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
-
+     <link href=""{% static "lib/owlcarousel/assets/owl.carousel.min.css"%} rel="stylesheet">
+    <link href=""{% static "lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"%} rel="stylesheet" />
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static "css/bootstrap.min.css"%}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link  href="{% static "css/style.css"%}" rel="stylesheet">
 </head>
 
 <body>
@@ -111,7 +110,7 @@
             <div class="col-lg-8">
                 <!-- Blog Detail Start -->
                 <div class="mb-5">
-                    <img class="img-fluid w-100 rounded mb-5" src="img/blog-2.jpg" alt="">
+                    <img class="img-fluid w-100 rounded mb-5" src="../static/img/blog-2.jpg" alt="">
                     <h1 class="mb-4">Diam dolor est labore duo ipsum clita sed et lorem tempor sanctus lorem kasd duo</h1>
                     <p>Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut
                         magna lorem. Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet
@@ -134,7 +133,7 @@
                         sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos.</p>
                     <div class="d-flex justify-content-between bg-light rounded p-4 mt-4 mb-4">
                         <div class="d-flex align-items-center">
-                            <img class="rounded-circle me-2" src="img/user.jpg" width="40" height="40" alt="">
+                            <img class="rounded-circle me-2" src="../static/img/user.jpg" width="40" height="40" alt="">
                             <span>John Doe</span>
                         </div>
                         <div class="d-flex align-items-center">
@@ -149,7 +148,7 @@
                 <div class="mb-5">
                     <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 mb-4">3 Comments</h4>
                     <div class="d-flex mb-4">
-                        <img src="img/user.jpg" class="img-fluid rounded-circle" style="width: 45px; height: 45px;">
+                        <img src="../static/img/user.jpg" class="img-fluid rounded-circle" style="width: 45px; height: 45px;">
                         <div class="ps-3">
                             <h6><a href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
                             <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
@@ -158,7 +157,7 @@
                         </div>
                     </div>
                     <div class="d-flex mb-4">
-                        <img src="img/user.jpg" class="img-fluid rounded-circle" style="width: 45px; height: 45px;">
+                        <img src="../static/img/user.jpg" class="img-fluid rounded-circle" style="width: 45px; height: 45px;">
                         <div class="ps-3">
                             <h6><a href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
                             <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
@@ -167,7 +166,7 @@
                         </div>
                     </div>
                     <div class="d-flex ms-5 mb-4">
-                        <img src="img/user.jpg" class="img-fluid rounded-circle" style="width: 45px; height: 45px;">
+                        <img src="../static/img/user.jpg" class="img-fluid rounded-circle" style="width: 45px; height: 45px;">
                         <div class="ps-3">
                             <h6><a href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
                             <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
@@ -232,27 +231,27 @@
                 <div class="mb-5">
                     <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 mb-4">Recent Post</h4>
                     <div class="d-flex rounded overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="../static/img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a href="" class="h5 d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet consec adipis elit
                         </a>
                     </div>
                     <div class="d-flex rounded overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="../static/img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a href="" class="h5 d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet consec adipis elit
                         </a>
                     </div>
                     <div class="d-flex rounded overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/blog-3.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="../static/img/blog-3.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a href="" class="h5 d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet consec adipis elit
                         </a>
                     </div>
                     <div class="d-flex rounded overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="../static/img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a href="" class="h5 d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet consec adipis elit
                         </a>
                     </div>
                     <div class="d-flex rounded overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="../static/img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a href="" class="h5 d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet consec adipis elit
                         </a>
                     </div>
@@ -261,7 +260,7 @@
 
                 <!-- Image Start -->
                 <div class="mb-5">
-                    <img src="img/blog-1.jpg" alt="" class="img-fluid rounded">
+                    <img src="../static/img/blog-1.jpg" alt="" class="img-fluid rounded">
                 </div>
                 <!-- Image End -->
 
@@ -375,15 +374,15 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="../static/lib/easing/easing.min.js"></script>
+    <script src="../static/lib/waypoints/waypoints.min.js"></script>
+    <script src="../static/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../static/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../static/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../static/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="../static/js/main.js"></script>
 </body>
 
 </html>
